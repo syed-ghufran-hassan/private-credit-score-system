@@ -37,5 +37,9 @@ Loans are approved if the credit score meets or exceeds a specified threshold (e
 - o1js CLI installed globally: npm install -g zkapp-cli
 - Git for version control
 
+## Deployment
+
+It is deployed on mina testnet https://minascan.io/devnet/tx/5Jv8SNabg8eXvebDyEkqLkWT5qSCzMUPymdnVy4UpmWjdDpL9zB7?type=zk-tx
+
 
 
