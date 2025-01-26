@@ -409,8 +409,7 @@ This will deploy zkapp in testnet. This zkapp is deployed on mina testnet `https
 
 ## Interact with zkapp
 
-You can interact with zkapp by replacing the zkapp public key with your zkapp public key. 
-
+You can interact with zkapp after depl]yment on testnet by replacing the zkapp public key with your zkapp public key. 
 
 You can then run the script by running
 
