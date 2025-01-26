@@ -76,5 +76,23 @@ After adding all the details now run
 
 This will deploy zkapp in testnet. This zkapp is deployed on mina testnet `https://minascan.io/devnet/tx/5Jv8SNabg8eXvebDyEkqLkWT5qSCzMUPymdnVy4UpmWjdDpL9zB7?type=zk-tx`
 
+## Interact with zkapp
+
+You can interact with zkapp by replacing the zkapp public key with your zkapp public key. 
+
+You can then build the project by running
+
+`npx tsc`
+
+You can then run the script by running
+
+`node dist/interact.ts`
+
+The script will then log interactions, such as storing a credit score, approving loans, and verifying ZKPs. It will give real time output. 
+
+For now I have used 750 as credit score which will accept the loan but you can use another score for validating the app.
+
+
+
 
 
