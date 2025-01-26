@@ -2,6 +2,8 @@
 
 CreditScoringApp is a decentralized application built using o1js, designed to facilitate secure and privacy-preserving credit scoring and loan approvals. Leveraging the power of zk-SNARKs, the application ensures that sensitive financial data remains private while providing provable credit validation for financial services.
 
+This is a step by step guide for deploying zkapp on Mina testnet.
+
 ## Key features
 
 - The application allows users to securely store and validate credit scores without exposing sensitive information to external parties.
@@ -12,7 +14,10 @@ CreditScoringApp is a decentralized application built using o1js, designed to fa
 
 ## Project Structure
 
-- src/: Contains the core smart contract CreditScoringApp, implementing the credit scoring and loan approval logic. It contains test file as well for testing zkapp.
+- src/Add.ts: It contains the core smart contract CreditScoringApp, implementing the credit scoring and loan approval logic.
+- src/Add.test.ts: It contrains the test suite for testing the logic of the file utilizing jest framework.
+- src/interact.ts: It handles user interactions or contract calls by defining functions to interact with the deployed Credit Scoring App smart contract.
+- src/index.ts: It serves as the main entry point of the application, orchestrating the initialization and interaction logic for the Credit Scoring App.
 
 ## Smart Contract Overview
 
