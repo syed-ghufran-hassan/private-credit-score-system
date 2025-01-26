@@ -19,6 +19,14 @@ This is a step by step guide for deploying zkapp on Mina testnet.
 - src/interact.ts: It handles user interactions or contract calls by defining functions to interact with the deployed Credit Scoring App smart contract.
 - src/index.ts: It serves as the main entry point of the application, orchestrating the initialization and interaction logic for the Credit Scoring App.
 
+### Add.ts
+
+### Add.test.ts
+
+### index.ts
+### interact.ts
+
+
 ## Compiling zkapp
 
 You can compile the code by running
